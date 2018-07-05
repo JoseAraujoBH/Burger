@@ -1,19 +1,30 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Homework using Node Express Handlebars",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunita321/burger.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars"
+  ],
+  "author": "Sunita Ramnarinesingh",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunita321/burger/issues"
+  },
+  "homepage": "https://github.com/sunita321/burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
-    "mysql": "^2.15.0"
+    "method-override": "^2.3.7",
+    "mysql": "^2.12.0"
   }
 }
